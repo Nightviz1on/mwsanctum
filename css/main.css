@@ -1,0 +1,184 @@
+html {
+	font-family: 'Balthazar', serif;
+	font-size: 12px;
+	font-size: 100%;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 2.0em;
+}
+
+h3 {
+	font-size: 1.0em;
+}
+
+body {
+	background-image: url("../images/background-mw-6.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+body p {
+	line-height: 130%;
+	font-size: 1.2em;
+}
+
+body a {
+	color: tan;
+}
+
+body a:hover {
+	color: white;
+}
+
+.header {
+	background: rgba(51,51,51,0.8);
+	width: 100%;
+	position: relative;
+	height: 70px;
+	margin-bottom: 30px;
+}
+
+.header h1 {
+	color: #fff;
+}
+
+#logo {
+	margin-left: 5px;
+}
+
+#nav {
+	float: right;
+  margin-top: 24px;
+	color: #fdfdd6;
+}
+
+#nav li {
+	display: inline;
+	padding: 3px;
+	margin-right: 5px;
+}
+
+.contenthead {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	padding: 5px;
+	text-shadow: 0 1px 1px #000;
+	background: rgba(51,51,51,0.8);
+	-moz-border-radius: 15px 15px 0 0;
+	border-radius: 15px 15px 0 0;
+	-webkit-box-shadow: 0 2px 2px 0 #888;
+	box-shadow: 0 2px 2px 0 #888;
+	color: #fdfdd6;
+}
+
+#title img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contents ul {
+	text-align: center;
+}
+
+.contents li {
+	display: inline;
+	font-size: 125%;
+}
+
+.contents li:before {
+content: " | ";
+}
+
+.contents a {
+	color: tan;
+}
+
+.contents li:first-child:before {
+	content: normal;
+}
+
+.contents a:hover {
+	color: white;
+	position: relative;
+	right: 1px;
+}
+
+.toc {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	text-shadow: 0 1px 1px #000;
+	background: rgba(51,51,51,0.8);
+	-webkit-box-shadow: 0 0 2px 0 #888;
+	box-shadow: 0 0 2px 0 #888;
+	color: #fdfdd6;
+}
+
+.maincontent {
+	width: 960px;
+	margin: 0 auto;
+	padding: 5px;
+	text-shadow: 0 1px 1px #000;
+	background: rgba(51,51,51,0.8);
+	-webkit-box-shadow: 0 2px 2px 0 #888;
+	box-shadow: 0 2px 2px 0 #888;
+	color: #fdfdd6;
+	overflow: hidden;
+}
+
+.maincontent p {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 5px 5px;
+}
+
+.modtitle h2 {
+	font-size: 1.6em;
+	font-family: 'IM Fell English SC', serif;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-bottom: 2px solid gray;
+	border-top: 2px solid gray;
+	color: tan;
+	clear: right;
+}
+
+.modimage {
+	float: right;
+	width: 30%;
+	height: auto;
+	margin: 10px;
+}
+
+.dlbutton {
+	float: right;
+	width: 10%;
+	height: auto;
+}
+
+.footer {
+	background: rgba(51,51,51,0.8);
+	width: 100%;
+	position: relative;
+	height: 70px;
+	margin-top: 30px;
+}
+
+.footer p {
+	color: #fdfdd6;
+	font-size: 1.25em;
+	text-align: center;
+	line-height: 70px;
+}
